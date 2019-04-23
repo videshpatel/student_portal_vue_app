@@ -1,6 +1,14 @@
 <template>
   <div class="root">
     <h4>Student experience update page.</h4>
+    <router-link to="/Edit">Edit</router-link>
+    |
+    <router-link to="/EditEducations">Edit Education</router-link>
+    |
+    <router-link to="/EditCapstones">Edit Capstones</router-link>
+    |
+    <router-link to="/EditExperiences">Edit Experience</router-link>
+
     <div v-for="error in errors">
       {{ error }}
     </div>
